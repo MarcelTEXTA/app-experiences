@@ -14,3 +14,10 @@ To install the applications, you need to have C++ and the respective libraries (
 
 ## Contributing
 If you want to contribute to this repository, feel free to fork it and create a pull request with your changes. You can also open an issue if you have any suggestions or find any bugs or regarding the applications.
+
+## Compiler
+To compile the application, you can go to the respective folder of the application and run the following command in the terminal:
+
+```bash
+g++ main.cpp $(wx-config --cxxflags --libs) -o app.exe
+```

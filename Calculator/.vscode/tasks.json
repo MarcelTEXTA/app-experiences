@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build wx",
+      "type": "shell",
+      "command": "g++ main.cpp $(wx-config --cxxflags --libs) -o app.exe",
+      "group": "build"
+    }
+  ]
+}
