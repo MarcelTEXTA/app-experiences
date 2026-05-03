@@ -21,3 +21,5 @@ To compile the application, you can go to the respective folder of the applicati
 ```bash
 g++ main.cpp $(wx-config --cxxflags --libs) -o app.exe
 ```
+
+Or with the `.vscode/tasks.json` file, you can simply press `Ctrl + Shift + B` to build the application.
