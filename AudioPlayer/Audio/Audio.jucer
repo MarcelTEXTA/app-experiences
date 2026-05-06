@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Mr7Wr3" name="Audio" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="vTEUqL" name="Audio">
+    <GROUP id="{1213CB9C-DAE0-5720-1712-D3987041F6EB}" name="Source">
+      <FILE id="idHNvA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Q3AnXB" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="aQuGH3" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Audio"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Audio"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../Downloads/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Downloads/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Downloads/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Downloads/juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Downloads/juce-8.0.12-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

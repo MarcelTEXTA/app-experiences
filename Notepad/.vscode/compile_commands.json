@@ -1,0 +1,7 @@
+[
+    {
+        "directory": "C:/Users/Family/projects/cpp/app-experiences/Notepad",
+        "command": "g++ main.cpp $(wx-config --cxxflags --libs) -o app.exe",
+        "file": "main.cpp"
+    }
+]
